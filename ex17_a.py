@@ -10,8 +10,6 @@ with open(from_file) as fp: in_data = fp.read()
 
 print(f"The input file is {len(in_data)} bytes long.")
 
-print(">>>> in_data=", repr(in_data))
-
 print(f"Does the ouput file exist? {exists(to_file)}")
 print("Ready, hit RETURN to continue, CTRL-C to abort.")
 input()
