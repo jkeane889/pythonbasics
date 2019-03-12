@@ -31,6 +31,7 @@ print("Florida's abbreviation is: ", states['Florida'])
 # do it by using the state and then cities dict
 print('-' * 10)
 print("Michigan has: ", cities[states['Michigan']])
+print(">>>> ", repr(cities[states['Michigan']]))
 print("Florida has: ", cities[states['Florida']])
 
 # print every state abbreviation
